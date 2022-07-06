@@ -83,3 +83,7 @@ transition: 0.4s ease;
 .btn:focus {
   outline: 0;
 }
+.btn:disabled {
+  background-color: var(--line-border-empty);
+  cursor: not-allowed;
+}
